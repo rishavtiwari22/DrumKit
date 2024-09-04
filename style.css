@@ -1,0 +1,158 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+
+body{
+    height:100vh;
+    width:100vw;
+    /* background-image: url('https://t.ly/7la11'); */
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    padding-top: 3vh;
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: fixed;
+    background-size: cover;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img{
+    height:10vh;
+    width: 8vw;
+}
+
+h1{
+    color: rgb(253, 253, 2);
+    background-color: rgb(128, 149, 146);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.cart{
+    height:60%;
+    width:70%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10vh;
+    border-radius: 10px;
+}
+
+.w{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/W2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.s{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/s2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/a2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/D2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.j{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/j2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.k{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/k2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.l{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    font-weight: 1000;
+    color: black;
+    background-image: url('/DrumKit/images/l2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+button{
+    border-radius: 50%;
+    border: 8px solid rgb(90, 91, 90);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+h4{
+    padding-top: 10px;
+    height:40px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    font-family: sans-serif;
+    color: yellow;
+}
+
+
+
